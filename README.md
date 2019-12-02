@@ -1,4 +1,4 @@
-# Product Name
+# Forum REST API
 > Short blurb about what your product does.
 
 [![NPM Version][npm-image]][npm-url]
@@ -7,7 +7,7 @@
 
 One to two paragraph statement about your product and what it does.
 
-![](header.png)
+![](forum.png)
 
 ## Prerequisites
 
@@ -75,6 +75,9 @@ Add additional notes about how to deploy this on a live system
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [](maven.png)
+* [](springboot_logo.png)
+
 
 
 ## Release History
