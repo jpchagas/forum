@@ -11,9 +11,41 @@ One to two paragraph statement about your product and what it does.
 
 ## Prerequisites
 
-What things you need to install the software and how to install them
+### JDK
 
+OS X & Linux:
+
+```sh
+1. Download and Install JDK.
+   sudo apt-get install python-software-properties
+   sudo add-apt-repository ppa:webupd8team/java
+   sudo apt-get update
+   sudo apt-get install oracle-java11-installer
+2. Set JAVA_HOME:
+   
 ```
+
+Windows:
+
+```sh
+1. Download and Install JDK.
+   https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
+2. Set JAVA_HOME:
+   C:\Program Files\Java\jdk-11.0.5
+```
+
+
+### MAVEN
+
+OS X & Linux:
+
+```sh
+Give examples
+```
+
+Windows:
+
+```sh
 Give examples
 ```
 
