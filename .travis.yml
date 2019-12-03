@@ -1,3 +1,5 @@
+sudo: true
+dist: trusty
 language: java
 jdk:
  - openjdk11
@@ -6,3 +8,5 @@ deploy:
  api-key: 
   secure: $HEROKU_API_KEY
  app: cruzi-forum
+before_install:
+ - chmod +x mvnw
