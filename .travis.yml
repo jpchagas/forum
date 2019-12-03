@@ -1,43 +1,8 @@
 language: java
-jdk: oraclejdk11
- 
-#services:
-#- docker
- 
-#env:
-#  global:
-#  - secure: "encrypted-sonar-token"
-#  - secure: "encrypted-dockerhub-username"
-#  - secure: "encrypted-dockerhub-password"
-#  - secure: "encrypted-heroku-api-key"
-#  - COMMIT=${TRAVIS_COMMIT::7}
- 
-addons:
-  sonarcloud:
-    organization: "jpchagas-github"
-    token:
-      secure: "**************************" # encrypted value of your token
-
-script:
-  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
-
-
-#travis encrypt 71cf37ec1cde8ace9a97bd8cd41a2276a371038f
- 
-#script:
-#- ./mvnw clean install -B
-#- ./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
- 
-#after_success:
-#- docker login -u $DOCKER_USER -p $DOCKER_PASS
-#- export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH&amp;amp;amp;amp;amp;amp;amp;lt;span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start"&amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;lt;/span&amp;amp;amp;amp;amp;amp;amp;gt;; fi`
-#- export IMAGE_NAME=sivaprasadreddy/jblogger
-#- docker build -t $IMAGE_NAME:$COMMIT .
-#- docker tag $IMAGE_NAME:$COMMIT $IMAGE_NAME:$TAG
-#- docker push $IMAGE_NAME
- 
+jdk:
+ - openjdk8
 deploy:
-  provider: heroku
-  api_key: 4ede1e6d-97c3-4627-b3d7-dbb57030874e
-  app: cruzi-forum
+ provider: heroku
+ api-key: 
+  secure: $HEROKU_API_KEY
+ app: cruzi-forum
