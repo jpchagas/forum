@@ -32,7 +32,7 @@ public class TopicoController {
     private CursoRepository cursoRepository;
 
     @GetMapping
-    public List<TopicoDTO> lista(String nomeCurso){
+    public List<TopicoDTO> lista(@RequestParam(required = false) String nomeCurso, @RequestParam int pagina, @RequestParam int qtd){
         if(nomeCurso == null){
             List<Topico> topicos = topicoRepository.findAll();
             return TopicoDTO.converter(topicos);
