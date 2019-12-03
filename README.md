@@ -7,7 +7,7 @@
 
 One to two paragraph statement about your product and what it does.
 
-![](forum.png)
+![](/img/forum.png)
 
 ## Prerequisites
 
@@ -104,8 +104,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-![](maven.png)
-![](springboot_logo.png)
+![](/img/maven.png)
+![](/img/springboot_logo.png)
 
 
 
