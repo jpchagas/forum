@@ -1,9 +1,9 @@
 # Forum REST API
 > Short blurb about what your product does.
 
-[![NPM Version][npm-image]][npm-url]
+
 [![Build Status](https://travis-ci.org/jpchagas/forum.svg?branch=master)](https://travis-ci.org/jpchagas/forum)
-[![Downloads Stats][npm-downloads]][npm-url]
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/28bc1f7db81a4ad093dc40a5f12ccce6)](https://www.codacy.com/manual/jpchagas/forum?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jpchagas/forum&amp;utm_campaign=Badge_Grade)
 
 One to two paragraph statement about your product and what it does.
 
