@@ -15,6 +15,11 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=security_rating)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=sqale_index)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
+[![stats](https://badgen.net/badge/uptime-robot/status/m784813077-0a7995220a4f0cdef5f23bf5)](https://stats.uptimerobot.com/EKwJLFWl7n)
+[![stats24](https://badgen.net/badge/uptime-robot/day/m784813077-0a7995220a4f0cdef5f23bf5)](https://stats.uptimerobot.com/EKwJLFWl7n)
+[![stats7](https://badgen.net/badge/uptime-robot/week/m784813077-0a7995220a4f0cdef5f23bf5)](https://stats.uptimerobot.com/EKwJLFWl7n)
+[![stats30](https://badgen.net/badge/uptime-robot/month/m784813077-0a7995220a4f0cdef5f23bf5)](https://stats.uptimerobot.com/EKwJLFWl7n)
+[![response](https://badgen.net/badge/uptime-robot/response/m784813077-0a7995220a4f0cdef5f23bf5)](https://stats.uptimerobot.com/EKwJLFWl7n)
 
 One to two paragraph statement about your product and what it does.
 
