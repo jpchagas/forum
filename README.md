@@ -3,7 +3,6 @@
 
 
 [![Build Status](https://travis-ci.org/jpchagas/forum.svg?branch=master)](https://travis-ci.org/jpchagas/forum)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/28bc1f7db81a4ad093dc40a5f12ccce6)](https://www.codacy.com/manual/jpchagas/forum?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jpchagas/forum&amp;utm_campaign=Badge_Grade)
 [![time tracker](https://wakatime.com/badge/github/jpchagas/forum.svg)](https://wakatime.com/badge/github/jpchagas/forum)
 
 One to two paragraph statement about your product and what it does.
