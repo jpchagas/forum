@@ -1,5 +1,4 @@
 language: java
-dist: trusty
 jdk:
 - oraclejdk11
 addons:
@@ -10,4 +9,4 @@ addons:
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=jpchagas_forum
+  - sonar-scanner
