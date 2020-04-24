@@ -1,13 +1,11 @@
-sudo: true
 dist: trusty
 language: java
-jdk:
- - openjdk11
-deploy:
- provider: heroku
- skip_cleanup: true
- api-key: 
-  secure: $HEROKU_API_KEY
- app: cruzi-forum
-before_install:
- - chmod +x mvnw
+addons:
+  sonarcloud:
+    organization: "jpchagas-github"
+    token:
+      secure: "4e2a545692971fd08311e7bd2f8f21b9a788747a" # encrypted value of your token
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
