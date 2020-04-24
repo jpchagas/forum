@@ -5,7 +5,7 @@ addons:
   sonarcloud:
     organization: "jpchagas-github" # the key of the org you chose at step #3
     token:
-      secure: SONAR_TOKEN # encrypted value of your token
+      secure: $SONAR_TOKEN # encrypted value of your token
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn clean verify sonar:sonar -Pcoverage -Dsonar.projectKey=myorg_myrepo
+  - mvn clean verify sonar:sonar -Pcoverage -Dsonar.jpchagas_forum=jpchagas-github_forum
