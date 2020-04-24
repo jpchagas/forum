@@ -4,6 +4,17 @@
 
 [![Build Status](https://travis-ci.org/jpchagas/forum.svg?branch=master)](https://travis-ci.org/jpchagas/forum)
 [![time tracker](https://wakatime.com/badge/github/jpchagas/forum.svg)](https://wakatime.com/badge/github/jpchagas/forum)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=alert_status)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=bugs)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=code_smells)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=coverage)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=ncloc)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=security_rating)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=sqale_index)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=jpchagas_forum&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=jpchagas_forum)
 
 One to two paragraph statement about your product and what it does.
 
